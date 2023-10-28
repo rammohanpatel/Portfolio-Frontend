@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;600&family=Montserrat&family=Mukta&family=Raleway:wght@500&family=Roboto:ital,wght@0,400;1,300&family=Space+Grotesk:wght@500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  font-family: 'Mukta', sans-serif;
+
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+
+
+
+
+/* Header Styles */
+.header {
+  background-color: #0070f3;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 1.2rem;
+}
+
+/* Navigation Styles */
+.navbar {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+  margin: 0 20px;
+  transition: color 0.2s;
+}
+
+.navbar a:hover {
+  color: #0070f3;
+}
+
+.project-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 0 1rem;
+}
+
+.project-card{
+  margin: 1rem;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  width: 500px;
+  box-shadow: 0px 0px 15px gray;
+}
+
+.project-details{
+  padding: 1rem;
+}
+.project-title{
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
